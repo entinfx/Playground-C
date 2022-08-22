@@ -1,11 +1,3 @@
-//
-//  arrays.c
-//  c_playground
-//
-//  Created by Constantine Shatalov on 9/21/18.
-//  Copyright © 2018 Hexocat. All rights reserved.
-//
-
 #include "arrays.h"
 
 void arrays1D() {
@@ -19,7 +11,7 @@ void arrays1D() {
     char cat[] = "John"; // shortcut to previous (includes nul terminator)
     char *dog = "Rex"; // pointer to string in stack
     puts(dog);
-    
+
     /* Creating dynamic arrays */
     // Size can be set at runtime
     char *cheetah = (char *)malloc(5 * sizeof(char));

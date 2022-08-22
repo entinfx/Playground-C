@@ -1,11 +1,3 @@
-//
-//  main.c
-//  c_playground
-//
-//  Created by Constantine Shatalov on 9/21/18.
-//  Copyright © 2018 Hexocat. All rights reserved.
-//
-
 #include <stdio.h>
 #include "memory.h"
 #include "arrays.h"

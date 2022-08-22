@@ -1,11 +1,3 @@
-//
-//  fileio.c
-//  c_playground
-//
-//  Created by Constantine Shatalov on 9/30/18.
-//  Copyright © 2018 Hexocat. All rights reserved.
-//
-
 #include "fileio.h"
 
 void fileBasics() {

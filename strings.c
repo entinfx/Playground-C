@@ -1,11 +1,3 @@
-//
-//  strings.c
-//  c_playground
-//
-//  Created by Constantine Shatalov on 9/22/18.
-//  Copyright © 2018 Hexocat. All rights reserved.
-//
-
 #include "strings.h"
 
 void charFunctions() {
@@ -47,7 +39,7 @@ void charFunctions() {
     /* fgets */
     puts("Enter something (enter 'quit' or send SIGINT to quit)");
     char *userInputSafe = (char *)malloc(12 * sizeof(char));
-    // fgets will allow 11 characters + '\r', stdin - standard console input   
+    // fgets will allow 11 characters + '\r', stdin - standard console input
     while (fgets(userInputSafe, 12, stdin)) {
         if (!strncmp(userInputSafe, "quit", 4)) {
             break;

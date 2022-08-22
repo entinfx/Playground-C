@@ -1,18 +1,10 @@
-//
-//  memory.c
-//  c_playground
-//
-//  Created by Constantine Shatalov on 9/21/18.
-//  Copyright © 2018 Hexocat. All rights reserved.
-//
-
 #include "memory.h"
 
 // MEMORY:
 // * Stack (fixed size, holds local/static/named variables)
 // * Heap (dynamic, unnamed allocated blocks for dynamic things)
 // * Global (holds global variables)
-//  
+//
 // PROGRAM:
 // Function 1: calls func. 2,                   declares 2 variables
 // Function 2: calls func. 3, has 2 parameters, declares 2 variables
@@ -42,7 +34,7 @@ void pointers() {
     *b = 5; // assign value to allocated memory @ adddress b, a remains untouched
     printf("%d @ %p\n", *b, b);
     free(b);
-    
+
     int *d;
     int *e = (int *)malloc(sizeof(int));
     d = e; // d and e point to the same heap memory

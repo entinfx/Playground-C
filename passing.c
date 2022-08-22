@@ -1,11 +1,3 @@
-//
-//  passing.c
-//  c_playground
-//
-//  Created by Constantine Shatalov on 10/7/18.
-//  Copyright © 2018 Hexocat. All rights reserved.
-//
-
 #include "passing.h"
 
 void passing() {
