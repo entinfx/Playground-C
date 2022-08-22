@@ -31,8 +31,8 @@ void fileBasics() {
     while (!feof(fPointer)) {
         fgets(line, 150, fPointer);
         printf("%s", line);
+        free(line);
     }
-    free(line);
     printf("\n");
     fclose(fPointer);
 }
